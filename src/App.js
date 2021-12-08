@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import User from "./user";  //importing user coponent to Gautam
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>User</h1>
+      <User name ="gauti" descrip = "me"/>
+      <User name ="gauti" descrip = "me"/>
+      <User name ="gauti" descrip = "me"/>
+      <User name ="gauti" descrip = "me"/>
+      {/* <User name = "pusen" descrip="you"/>    */}
+      {/* here we using the component */}
     </div>
   );
 }
 
 export default App;
+
+
